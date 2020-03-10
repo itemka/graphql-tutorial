@@ -9,6 +9,23 @@ const {
   GraphQLList,
 } = graphql;
 
+const directorsJson = [
+  { name: "directorsJson1", age: 98 }, // 5e6815b71c9d440000bc0c67
+  { name: "directorsJson2", age: 27 }, // 5e68179c1c9d440000bc0c6c
+  { name: "directorsJson3", age: 45 }, // 5e6817c11c9d440000bc0c6d
+  { name: "directorsJson4", age: 34 }, // 5e6817dc1c9d440000bc0c6e
+];
+
+const moviesJson = [
+  { name: "moviesJson1", genre: 'moviesJson1genre', directorId: 1 }, // 5e6815b71c9d440000bc0c67
+  { name: "moviesJson2", genre: 'moviesJson1genre', directorId: 1 }, // 5e6815b71c9d440000bc0c67
+  { name: "moviesJson3", genre: 'moviesJson1genre', directorId: 1 }, // 5e6815b71c9d440000bc0c67
+  { name: "moviesJson4", genre: 'moviesJson2genre', directorId: 2 }, // 5e68179c1c9d440000bc0c6c
+  { name: "moviesJson5", genre: 'moviesJson2genre', directorId: 2 }, // 5e68179c1c9d440000bc0c6c
+  { name: "moviesJson6", genre: 'moviesJson3genre', directorId: 3 }, // 5e6817c11c9d440000bc0c6d
+  { name: "moviesJson7", genre: 'moviesJson4genre', directorId: 4 }, // 5e6817dc1c9d440000bc0c6e
+];
+
 const movies = [
   { id: '1', name: 'movie1', genre: 'Crime1', directorId: "1" },
   { id: '2', name: 'movie2', genre: 'Crime2', directorId: "2" },
