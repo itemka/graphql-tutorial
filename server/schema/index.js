@@ -8,7 +8,7 @@ const {
   GraphQLInt,
   GraphQLList,
   GraphQLNonNull,
-} = graphql; 
+} = graphql;
 
 const Movie = require('../models/movie');
 const Director = require('../models/director');
